@@ -1,2 +1,5 @@
 google-adk==1.13.0
 python-dotenv
+google-cloud-bigquery
+google-cloud-vision
+opencv-python-headless

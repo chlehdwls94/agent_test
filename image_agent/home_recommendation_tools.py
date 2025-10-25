@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from google.adk.tools import ToolContext
 from google import genai
 from google.genai import types
+from google.cloud import bigquery
 import logging
 
 logger = logging.getLogger(__name__)
@@ -11,14 +12,21 @@ logger = logging.getLogger(__name__)
 # --- Constants ---
 MODEL_FLASH = "gemini-1.5-flash"
 MODEL_PRO = "gemini-1.5-pro"
-PRODUCTS_FILE = 'products.json'
 
 # --- Model Initialization ---
-load_dotenv()
-PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT")
+# Manually read the .env file to get the project ID
+project_id = None
+try:
+    with open("image_agent/.env", "r") as f:
+        for line in f:
+            if line.strip().startswith("GOOGLE_CLOUD_PROJECT="):
+                project_id = line.strip().split('=')[1]
+                break
+except FileNotFoundError:
+    logger.error("Error: image_agent/.env file not found.")
 
-if not PROJECT_ID:
-    logger.error("GOOGLE_CLOUD_PROJECT is not set")
+if not project_id:
+    logger.error("Error: GOOGLE_CLOUD_PROJECT not found in image_agent/.env file.")
 
 # Instantiate models once to be reused
 try:
@@ -26,8 +34,6 @@ try:
     pro_model = genai.GenerativeModel(MODEL_PRO)
 except Exception as e:
     logger.error(f"Failed to initialize generative models: {e}")
-    # Handle the case where models can't be loaded, maybe by raising an exception
-    # or ensuring the functions below handle the models being None.
     flash_model = None
     pro_model = None
 
@@ -36,12 +42,6 @@ except Exception as e:
 def ImageAnalyzer(file_path: str) -> str:
     """
     Analyzes an image of a room and returns a detailed description of its characteristics.
-
-    Args:
-        file_path (str): The path to the image file.
-
-    Returns:
-        str: A detailed description of the room including style, lighting, colors, and existing furniture.
     """
     if not flash_model:
         return "Error: Model not initialized."
@@ -65,12 +65,6 @@ def ImageAnalyzer(file_path: str) -> str:
 def ContextExtractor(user_text: str) -> dict:
     """
     Extracts the purpose, budget, and product preference from the user's text.
-
-    Args:
-        user_text (str): The user's text.
-
-    Returns:
-        dict: A dictionary containing the purpose, budget, and product preference.
     """
     if not pro_model:
         return {"error": "Model not initialized."}
@@ -82,7 +76,6 @@ def ContextExtractor(user_text: str) -> dict:
         """
     try:
         response = pro_model.generate_content(prompt)
-        # The response.json() method is not standard. We should parse the text.
         return json.loads(response.text)
     except json.JSONDecodeError:
         logger.error(f"Failed to decode JSON from ContextExtractor response: {response.text}")
@@ -91,33 +84,31 @@ def ContextExtractor(user_text: str) -> dict:
         logger.error(f"An error occurred in ContextExtractor: {e}")
         return {"error": "Could not extract user context."}
 
-def ProductMatcher(room_description: str, user_context: dict, products_file: str = PRODUCTS_FILE) -> list:
+def ProductMatcher(room_description: str, user_context: dict) -> list:
     """
-    Matches products from the local JSON database based on the room description and user context.
-
-    Args:
-        room_description (str): A description of the room.
-        user_context (dict): A dictionary containing the purpose, budget, and product preference.
-        products_file (str): The path to the products JSON file.
-
-    Returns:
-        list: A list of recommended products.
+    Matches products from the BigQuery database based on the room description and user context.
     """
     if not pro_model:
         return [{"error": "Model not initialized."}]
 
     try:
-        with open(products_file, 'r') as f:
-            products = json.load(f)
-    except FileNotFoundError:
-        logger.error(f"Products file not found at path: {products_file}")
-        return [{"error": f"Products file not found at '{products_file}'."}]
-    except json.JSONDecodeError:
-        logger.error(f"Failed to decode JSON from products file: {products_file}")
-        return [{"error": "Invalid product data format."}]
+        client = bigquery.Client(project=project_id)
+        query = f"""SELECT * FROM `{project_id}.product_recommendations.products`"""
+        query_job = client.query(query)
+        products = [dict(row) for row in query_job]
+
+        # Convert the JSON strings back to dicts
+        for product in products:
+            product['specs'] = json.loads(product['specs'])
+            product['rtings_scores'] = json.loads(product['rtings_scores'])
+            product['price_usd'] = json.loads(product['price_usd'])
+
+    except Exception as e:
+        logger.error(f"Failed to query BigQuery: {e}")
+        return [{"error": "Failed to retrieve product data from BigQuery."}]
 
     budget = user_context.get("budget", float('inf'))
-    affordable_products = [p for p in products if p.get("price_usd", {}).get("55", 0) <= budget] # Example: check for 55-inch price
+    affordable_products = [p for p in products if p.get("price_usd", {}).get("55", 0) <= budget]
 
     prompt = f"""
     Based on the following room description and user preferences, select the top 3-5 most suitable products from the list.
@@ -135,7 +126,6 @@ def ProductMatcher(room_description: str, user_context: dict, products_file: str
     """
     try:
         response = pro_model.generate_content(prompt)
-        # Robust JSON extraction
         json_str = response.text[response.text.find('['):response.text.rfind(']')+1]
         if not json_str:
             logger.warning(f"No JSON list found in ProductMatcher response: {response.text}")
@@ -151,14 +141,6 @@ def ProductMatcher(room_description: str, user_context: dict, products_file: str
 def RecommendationExplainer(products: list, room_description: str, user_context: dict) -> str:
     """
     Generates a human-readable recommendation explaining why the products are a good fit.
-
-    Args:
-        products (list): A list of recommended products.
-        room_description (str): The analysis of the room image.
-        user_context (dict): The user's stated needs and preferences.
-
-    Returns:
-        str: A detailed, expert recommendation.
     """
     if not pro_model:
         return "Error: Model not initialized."

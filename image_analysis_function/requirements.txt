@@ -1,0 +1,5 @@
+functions-framework>=3.0
+google-cloud-vision
+google-cloud-storage
+opencv-python-headless
+numpy
