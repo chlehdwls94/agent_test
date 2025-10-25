@@ -1,4 +1,231 @@
-{"product_id": "1", "product_name": "OLED TV 55 inch", "product_type": "TV", "screen_size_inch": 55, "brightness_nits": 800, "energy_class": "A", "recommended_room_types": "living room, bedroom", "min_viewing_distance_m": 2, "max_viewing_distance_m": 4, "price_usd": 1500}
-{"product_id": "2", "product_name": "LED TV 65 inch", "product_type": "TV", "screen_size_inch": 65, "brightness_nits": 600, "energy_class": "A+", "recommended_room_types": "living room", "min_viewing_distance_m": 2.5, "max_viewing_distance_m": 5, "price_usd": 1200}
-{"product_id": "3", "product_name": "Projector 1080p", "product_type": "Projector", "screen_size_inch": 100, "brightness_nits": 3000, "energy_class": "B", "recommended_room_types": "home theater", "min_viewing_distance_m": 3, "max_viewing_distance_m": 6, "price_usd": 800}
-{"product_id": "4", "product_name": "Smart Display 10 inch", "product_type": "Smart Display", "screen_size_inch": 10, "brightness_nits": 400, "energy_class": "A", "recommended_room_types": "kitchen, bedroom", "min_viewing_distance_m": 0.5, "max_viewing_distance_m": 2, "price_usd": 200}
+
+[
+  {
+    "product_id": "tv-samsung-s95f",
+    "product_name": "Samsung S95F OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.9,
+      "movies": 8.8,
+      "tv_shows": 8.9,
+      "sports": 9.0,
+      "video_games": 9.3
+    },
+    "price_usd": {
+      "55": 1800,
+      "65": 2500,
+      "77": 3600
+    },
+    "summary": "Excellent QD-OLED TV for any usage. Its main strength is its incredible brightness and vibrant colors, making it fantastic for HDR content and bright rooms. It's also a top-tier gaming TV with low input lag and high refresh rate support."
+  },
+  {
+    "product_id": "tv-lg-c4",
+    "product_name": "LG C4 OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [42, 48, 55, 65, 77, 83],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.8,
+      "movies": 9.2,
+      "tv_shows": 8.7,
+      "sports": 8.8,
+      "video_games": 9.1
+    },
+    "price_usd": {
+      "55": 1900,
+      "65": 2700,
+      "77": 3700
+    },
+    "summary": "Amazing TV, especially for watching movies in a dark room. It delivers perfect blacks and vibrant colors. It's also great for gaming, thanks to its low input lag and support for all VRR formats."
+  },
+  {
+    "product_id": "tv-sony-a95l",
+    "product_name": "Sony A95L OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.8,
+      "movies": 9.3,
+      "tv_shows": 8.8,
+      "sports": 8.7,
+      "video_games": 8.8
+    },
+    "price_usd": {
+      "55": 2800,
+      "65": 3500,
+      "77": 5000
+    },
+    "summary": "One of the best TVs for movies and TV shows. It offers fantastic picture quality with stunning colors and brightness, combined with Sony's class-leading processing for smooth motion and upscaling."
+  },
+  {
+    "product_id": "tv-samsung-qn90d",
+    "product_name": "Samsung QN90D QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75, 85, 98],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.6,
+      "movies": 8.2,
+      "tv_shows": 8.6,
+      "sports": 8.7,
+      "video_games": 9.1
+    },
+    "price_usd": {
+      "55": 1500,
+      "65": 2000,
+      "75": 2800
+    },
+    "summary": "A fantastic TV for bright rooms and gaming. Its Mini LED backlight delivers impressive brightness to overcome glare, and it has a great set of gaming features."
+  },
+  {
+    "product_id": "tv-hisense-u8n",
+    "product_name": "Hisense U8N",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.5,
+      "movies": 8.4,
+      "tv_shows": 8.5,
+      "sports": 8.5,
+      "video_games": 8.8
+    },
+    "price_usd": {
+      "55": 1000,
+      "65": 1300,
+      "75": 1800
+    },
+    "summary": "Offers amazing performance for its price. It gets exceptionally bright, making it a great choice for bright rooms, and has deep blacks for a good dark room experience. A great value gaming TV."
+  },
+  {
+    "product_id": "tv-tcl-qm8",
+    "product_name": "TCL QM8",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [65, 75, 85, 98],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.4,
+      "movies": 8.3,
+      "tv_shows": 8.4,
+      "sports": 8.4,
+      "video_games": 8.7
+    },
+    "price_usd": {
+      "65": 1200,
+      "75": 1700,
+      "85": 2200
+    },
+    "summary": "A flagship Mini LED TV that gets incredibly bright, delivering stunning HDR highlights. It's a great choice for a bright living room and for immersive HDR movies or games."
+  },
+  {
+    "product_id": "soundbar-samsung-q990d",
+    "product_name": "Samsung HW-Q990D",
+    "product_type": "Soundbar",
+    "specs": {
+      "channels": "11.1.4",
+      "dolby_atmos": true,
+      "dts_x": true
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.6,
+      "movies": 8.8,
+      "music": 8.2
+    },
+    "price_usd": 1800,
+    "summary": "A top-of-the-line soundbar that offers a truly immersive, theater-like experience with its included rear speakers and subwoofer. Excellent for Dolby Atmos movies."
+  },
+  {
+    "product_id": "soundbar-sonos-arc",
+    "product_name": "Sonos Arc",
+    "product_type": "Soundbar",
+    "specs": {
+      "channels": "5.0.2",
+      "dolby_atmos": true,
+      "dts_x": false
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.0,
+      "movies": 8.2,
+      "music": 7.8
+    },
+    "price_usd": 900,
+    "summary": "A premium standalone soundbar that delivers impressive Dolby Atmos sound. It's known for its wide, spacious soundstage and can be expanded with other Sonos speakers."
+  },
+  {
+    "product_id": "soundbar-vizio-m512a-h6",
+    "product_name": "Vizio M-Series M512a-H6",
+    "product_type": "Soundbar",
+    "specs": {
+      "channels": "5.1.2",
+      "dolby_atmos": true,
+      "dts_x": true
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.8,
+      "movies": 8.0,
+      "music": 7.5
+    },
+    "price_usd": 450,
+    "summary": "An excellent value soundbar system that includes rear speakers and a subwoofer for immersive surround sound. A great budget-friendly option for movies."
+  },
+  {
+    "product_id": "streaming-apple-tv-4k",
+    "product_name": "Apple TV 4K (3rd generation)",
+    "product_type": "Streaming Device",
+    "specs": {
+      "hdr_formats": ["HDR10+", "Dolby Vision"],
+      "storage_gb": [64, 128]
+    },
+    "price_usd": 129,
+    "summary": "A high-end streaming device with a fast processor and a clean user interface. Supports all major HDR formats and offers a premium streaming experience."
+  },
+  {
+    "product_id": "streaming-nvidia-shield-pro",
+    "product_name": "NVIDIA SHIELD Android TV Pro",
+    "product_type": "Streaming Device",
+    "specs": {
+      "hdr_formats": ["HDR10", "Dolby Vision"],
+      "storage_gb": 16
+    },
+    "price_usd": 200,
+    "summary": "The most powerful streaming device available, with AI-powered 4K upscaling that is unmatched. It's also a great device for cloud gaming and can act as a Plex media server."
+  },
+  {
+    "product_id": "lighting-philips-hue",
+    "product_name": "Philips Hue White and Color Ambiance Starter Kit",
+    "product_type": "Smart Lighting",
+    "specs": {
+      "bulbs": 4,
+      "colors": "16 million"
+    },
+    "price_usd": 200,
+    "summary": "The gold standard in smart lighting. Offers a huge range of colors and integrates with almost every smart home ecosystem. Great for creating ambiance."
+  }
+]
