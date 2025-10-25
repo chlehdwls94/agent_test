@@ -1,31 +1,27 @@
 from google.adk.agents import Agent
 from .prompt import (image_agent_instruction, architecture_agent_instruction, root_agent_instruction)
-
-#from google.adk.tools import google_search
-from .tools import generate_edit_image
-
-
-image_agent = Agent(
-    name="image_agent",
-    model="gemini-2.5-flash",
-    description="An agent responsible for generating and modifying images",
-    instruction=image_agent_instruction,
-    tools=[generate_edit_image],
+from .home_recommendation_tools import (
+    ImageAnalyzer,
+    ContextExtractor,
+    ProductMatcher,
+    RecommendationExplainer,
 )
 
-"""
-architecture_agent = Agent(
-    name="architecture_agent",
-    model="gemini-2.5-flash",
-    description="This agent provides a detailed breakdown and comprehensive explanation of system architecture diagrams",
-    instruction=architecture_agent_instruction,
+home_recommendation_agent = Agent(
+    name="home_recommendation_agent",
+    model="gemini-2.5-pro",
+    description="An agent that recommends products based on a room image and user preferences",
+    tools=[
+        ImageAnalyzer,
+        ContextExtractor,
+        ProductMatcher,
+        RecommendationExplainer,
+    ],
 )
-"""
+
 root_agent = Agent(
-    name="root_agent",
-    model="gemini-2.5-flash",
-    description="An AI agent designed for image-related tasks, including content analysis, generation, and modification",
-    instruction=root_agent_instruction,
-    #sub_agents=[image_agent,architecture_agent]
-    sub_agents=[image_agent]
+    name="home_recommendation_root_agent",
+    model="gemini-2.5-pro",
+    description="A root agent that orchestrates the home recommendation agent",
+    sub_agents=[home_recommendation_agent],
 )
