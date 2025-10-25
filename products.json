@@ -415,5 +415,1755 @@
       "75": 1500
     },
     "summary": "Vizio's flagship 4k TV. It gets very bright and has a wide color gamut, making HDR content pop. A strong competitor in the upper mid-range LED TV market."
+  },
+  {
+    "product_id": "tv-samsung-s90f",
+    "brand": "Samsung",
+    "product_name": "Samsung S90F OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz",
+      "peak_brightness_hdr_nits": 1300,
+      "input_lag_1080p_ms": 8.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.6,
+      "movies": 8.8,
+      "tv_shows": 8.6,
+      "sports": 8.1,
+      "video_games": 9.1
+    },
+    "price_usd": {
+      "55": 1700,
+      "65": 2400,
+      "77": 3500
+    },
+    "summary": "Samsung's QD-OLED TV with excellent gaming performance and 144Hz refresh rate. Perfect for gamers who want OLED picture quality with high frame rate support."
+  },
+  {
+    "product_id": "tv-hisense-u75qg",
+    "brand": "Hisense",
+    "product_name": "Hisense U75QG",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75, 85, 100],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "165 Hz",
+      "peak_brightness_hdr_nits": 1800,
+      "input_lag_1080p_ms": 12.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.0,
+      "movies": 8.0,
+      "tv_shows": 8.0,
+      "sports": 7.8,
+      "video_games": 7.9
+    },
+    "price_usd": {
+      "55": 800,
+      "65": 1100,
+      "75": 1500,
+      "85": 2000,
+      "100": 3000
+    },
+    "summary": "Excellent value TV with high refresh rate and good HDR performance. Great for budget-conscious buyers who want gaming features."
+  },
+  {
+    "product_id": "tv-lg-uq9000",
+    "brand": "LG",
+    "product_name": "LG UQ9000",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 70, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 400,
+      "input_lag_1080p_ms": 15.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 6.8,
+      "movies": 6.9,
+      "tv_shows": 6.8,
+      "sports": 6.7,
+      "video_games": 6.7
+    },
+    "price_usd": {
+      "43": 400,
+      "50": 500,
+      "55": 600,
+      "65": 800,
+      "70": 1000,
+      "75": 1200
+    },
+    "summary": "Budget-friendly LG TV with Dolby Vision support. Good entry-level option for casual viewing with decent picture quality."
+  },
+  {
+    "product_id": "tv-tcl-q651g",
+    "brand": "TCL",
+    "product_name": "TCL Q651G",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 600,
+      "input_lag_1080p_ms": 18.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 5.9,
+      "movies": 5.9,
+      "tv_shows": 5.9,
+      "sports": 6.0,
+      "video_games": 5.4
+    },
+    "price_usd": {
+      "55": 350,
+      "65": 500,
+      "75": 700
+    },
+    "summary": "Entry-level TCL TV with basic 4K and Dolby Vision support. Suitable for budget-conscious buyers who want basic smart TV features."
+  },
+  {
+    "product_id": "tv-sony-a80l",
+    "brand": "Sony",
+    "product_name": "Sony A80L OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1000,
+      "input_lag_1080p_ms": 15.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.7,
+      "movies": 9.1,
+      "tv_shows": 8.7,
+      "sports": 8.6,
+      "video_games": 8.7
+    },
+    "price_usd": {
+      "55": 2000,
+      "65": 2800,
+      "77": 4000
+    },
+    "summary": "Sony's premium OLED with excellent movie performance and processing. Perfect for home theater enthusiasts who prioritize picture quality."
+  },
+  {
+    "product_id": "tv-samsung-qn85d",
+    "brand": "Samsung",
+    "product_name": "Samsung QN85D QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz",
+      "peak_brightness_hdr_nits": 1800,
+      "input_lag_1080p_ms": 10.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.4,
+      "movies": 8.1,
+      "tv_shows": 8.4,
+      "sports": 8.5,
+      "video_games": 8.9
+    },
+    "price_usd": {
+      "55": 1200,
+      "65": 1600,
+      "75": 2200,
+      "85": 3000
+    },
+    "summary": "Samsung's Mini LED TV with excellent brightness and gaming features. Great alternative to OLED for bright rooms and gaming."
+  },
+  {
+    "product_id": "tv-lg-c3",
+    "brand": "LG",
+    "product_name": "LG C3 OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [42, 48, 55, 65, 77, 83],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 900,
+      "input_lag_1080p_ms": 9.5,
+      "vrr_support": "FreeSync, G-SYNC, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.7,
+      "movies": 9.0,
+      "tv_shows": 8.6,
+      "sports": 8.7,
+      "video_games": 9.0
+    },
+    "price_usd": {
+      "42": 1200,
+      "48": 1400,
+      "55": 1600,
+      "65": 2200,
+      "77": 3200,
+      "83": 4000
+    },
+    "summary": "LG's popular OLED with excellent gaming performance and G-SYNC support. Perfect balance of price and performance for most users."
+  },
+  {
+    "product_id": "tv-hisense-u8k",
+    "brand": "Hisense",
+    "product_name": "Hisense U8K",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz",
+      "peak_brightness_hdr_nits": 2000,
+      "input_lag_1080p_ms": 12.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.3,
+      "movies": 8.2,
+      "tv_shows": 8.3,
+      "sports": 8.4,
+      "video_games": 8.6
+    },
+    "price_usd": {
+      "55": 900,
+      "65": 1200,
+      "75": 1600,
+      "85": 2200
+    },
+    "summary": "Hisense's flagship Mini LED TV with excellent brightness and contrast. Great value for money with premium features."
+  },
+  {
+    "product_id": "tv-tcl-qm850g",
+    "brand": "TCL",
+    "product_name": "TCL QM850G",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [65, 75, 85, 98],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 2100,
+      "input_lag_1080p_ms": 11.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.2,
+      "movies": 8.1,
+      "tv_shows": 8.2,
+      "sports": 8.3,
+      "video_games": 8.5
+    },
+    "price_usd": {
+      "65": 1000,
+      "75": 1400,
+      "85": 1800,
+      "98": 2500
+    },
+    "summary": "TCL's Mini LED TV with excellent brightness and HDR performance. Great choice for bright rooms and HDR content."
+  },
+  {
+    "product_id": "tv-lg-g5",
+    "brand": "LG",
+    "product_name": "LG G5 OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1600,
+      "input_lag_1080p_ms": 8.8,
+      "vrr_support": "FreeSync, G-SYNC, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 9.1,
+      "movies": 9.4,
+      "tv_shows": 9.0,
+      "sports": 9.0,
+      "video_games": 9.2
+    },
+    "price_usd": {
+      "55": 2800,
+      "65": 3800,
+      "77": 5500
+    },
+    "summary": "LG's flagship OLED with gallery design and wall-mount optimization. Features MLA technology for incredible brightness and perfect blacks."
+  },
+  {
+    "product_id": "tv-samsung-s85f",
+    "brand": "Samsung",
+    "product_name": "Samsung S85F OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1200,
+      "input_lag_1080p_ms": 9.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.5,
+      "movies": 8.7,
+      "tv_shows": 8.5,
+      "sports": 8.3,
+      "video_games": 8.8
+    },
+    "price_usd": {
+      "55": 1500,
+      "65": 2100
+    },
+    "summary": "Samsung's most affordable QD-OLED model with excellent color performance and gaming features. Great entry point to OLED technology."
+  },
+  {
+    "product_id": "tv-hisense-u6n",
+    "brand": "Hisense",
+    "product_name": "Hisense U6N",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 800,
+      "input_lag_1080p_ms": 16.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.2,
+      "movies": 7.1,
+      "tv_shows": 7.3,
+      "sports": 7.2,
+      "video_games": 7.0
+    },
+    "price_usd": {
+      "55": 450,
+      "65": 650
+    },
+    "summary": "Budget-friendly Hisense TV with Dolby Vision support and good value for money. Perfect for casual viewing and basic smart TV needs."
+  },
+  {
+    "product_id": "tv-samsung-q60d",
+    "brand": "Samsung",
+    "product_name": "Samsung Q60D QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 700,
+      "input_lag_1080p_ms": 14.5,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.5,
+      "movies": 7.3,
+      "tv_shows": 7.6,
+      "sports": 7.4,
+      "video_games": 7.2
+    },
+    "price_usd": {
+      "43": 500,
+      "50": 650,
+      "55": 800,
+      "65": 1100
+    },
+    "summary": "Samsung's entry-level QLED with good brightness and smart features. Great for bright rooms and everyday viewing."
+  },
+  {
+    "product_id": "tv-lg-c5",
+    "brand": "LG",
+    "product_name": "LG C5 OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1100,
+      "input_lag_1080p_ms": 9.2,
+      "vrr_support": "FreeSync, G-SYNC, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.9,
+      "movies": 9.3,
+      "tv_shows": 8.8,
+      "sports": 8.9,
+      "video_games": 9.1
+    },
+    "price_usd": {
+      "55": 1800,
+      "65": 2500,
+      "77": 3600
+    },
+    "summary": "LG's premium OLED with excellent brightness in bright environments and vibrant colors in game mode. Perfect for mixed usage."
+  },
+  {
+    "product_id": "tv-samsung-qn95d",
+    "brand": "Samsung",
+    "product_name": "Samsung QN95D 8K QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [65, 75, 85],
+      "type": "LED",
+      "resolution": "8k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 2500,
+      "input_lag_1080p_ms": 9.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.9,
+      "movies": 8.6,
+      "tv_shows": 8.9,
+      "sports": 9.0,
+      "video_games": 9.3
+    },
+    "price_usd": {
+      "65": 4500,
+      "75": 6500,
+      "85": 9000
+    },
+    "summary": "Samsung's flagship 8K QLED with excellent upscaling and incredible brightness. Perfect for large rooms and premium viewing experience."
+  },
+  {
+    "product_id": "tv-samsung-qn90d",
+    "brand": "Samsung",
+    "product_name": "Samsung QN90D QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz",
+      "peak_brightness_hdr_nits": 2200,
+      "input_lag_1080p_ms": 9.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.7,
+      "movies": 8.4,
+      "tv_shows": 8.7,
+      "sports": 8.8,
+      "video_games": 9.2
+    },
+    "price_usd": {
+      "43": 1000,
+      "50": 1200,
+      "55": 1400,
+      "65": 1900,
+      "75": 2600,
+      "85": 3500
+    },
+    "summary": "Samsung's premium 4K QLED with excellent brightness and contrast for bright environments. Great alternative to OLED with gaming features."
+  },
+  {
+    "product_id": "tv-samsung-s95d",
+    "brand": "Samsung",
+    "product_name": "Samsung S95D OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz",
+      "peak_brightness_hdr_nits": 1400,
+      "input_lag_1080p_ms": 8.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.8,
+      "movies": 9.0,
+      "tv_shows": 8.8,
+      "sports": 8.5,
+      "video_games": 9.4
+    },
+    "price_usd": {
+      "55": 2000,
+      "65": 2800,
+      "77": 4000
+    },
+    "summary": "Samsung's latest QD-OLED with vibrant colors and deep blacks. Features 144Hz refresh rate for excellent gaming performance."
+  },
+  {
+    "product_id": "tv-tcl-qm751g",
+    "brand": "TCL",
+    "product_name": "TCL QM751G QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1500,
+      "input_lag_1080p_ms": 12.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.1,
+      "movies": 8.0,
+      "tv_shows": 8.1,
+      "sports": 8.2,
+      "video_games": 8.3
+    },
+    "price_usd": {
+      "55": 800,
+      "65": 1100,
+      "75": 1500
+    },
+    "summary": "TCL's mid-range QLED with good performance and QLED technology. Excellent value for money with solid gaming features."
+  },
+  {
+    "product_id": "tv-sony-x95l",
+    "brand": "Sony",
+    "product_name": "Sony X95L LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 2300,
+      "input_lag_1080p_ms": 16.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.8,
+      "movies": 8.7,
+      "tv_shows": 8.8,
+      "sports": 8.9,
+      "video_games": 8.7
+    },
+    "price_usd": {
+      "65": 2800,
+      "75": 3800,
+      "85": 5000
+    },
+    "summary": "Sony's flagship LED TV with excellent color accuracy and processing. Perfect for bright rooms and accurate color reproduction."
+  },
+  {
+    "product_id": "tv-lg-qned90",
+    "brand": "LG",
+    "product_name": "LG QNED90",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75, 86],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1800,
+      "input_lag_1080p_ms": 11.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.3,
+      "movies": 8.1,
+      "tv_shows": 8.3,
+      "sports": 8.4,
+      "video_games": 8.6
+    },
+    "price_usd": {
+      "55": 1200,
+      "65": 1600,
+      "75": 2200,
+      "86": 3000
+    },
+    "summary": "LG's QNED TV combining quantum dot and NanoCell technology for sharp picture quality. Good alternative to QLED with LG's processing."
+  },
+  {
+    "product_id": "tv-vizio-m-series-quantum-x",
+    "brand": "Vizio",
+    "product_name": "Vizio M Series Quantum X",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [50, 55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1600,
+      "input_lag_1080p_ms": 13.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.0,
+      "movies": 7.9,
+      "tv_shows": 8.1,
+      "sports": 8.0,
+      "video_games": 8.2
+    },
+    "price_usd": {
+      "50": 600,
+      "55": 800,
+      "65": 1100,
+      "75": 1500
+    },
+    "summary": "Vizio's quantum color technology TV with wide color gamut and good HDR performance. Great value for money with solid gaming features."
+  },
+  {
+    "product_id": "tv-samsung-qn900c",
+    "brand": "Samsung",
+    "product_name": "Samsung QN900C 8K QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [65, 75, 85],
+      "type": "LED",
+      "resolution": "8k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 2800,
+      "input_lag_1080p_ms": 8.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 9.0,
+      "movies": 8.8,
+      "tv_shows": 9.0,
+      "sports": 9.1,
+      "video_games": 9.4
+    },
+    "price_usd": {
+      "65": 5000,
+      "75": 7000,
+      "85": 10000
+    },
+    "summary": "Samsung's premium 8K QLED with incredible brightness and detail. Perfect for large screens where 8K resolution makes a difference."
+  },
+  {
+    "product_id": "tv-lg-z3",
+    "brand": "LG",
+    "product_name": "LG Z3 8K OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [77, 83, 88],
+      "type": "OLED",
+      "resolution": "8k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1600,
+      "input_lag_1080p_ms": 10.0,
+      "vrr_support": "FreeSync, G-SYNC, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 9.2,
+      "movies": 9.5,
+      "tv_shows": 9.2,
+      "sports": 9.1,
+      "video_games": 9.3
+    },
+    "price_usd": {
+      "77": 8000,
+      "83": 12000,
+      "88": 15000
+    },
+    "summary": "LG's flagship 8K OLED with perfect blacks and incredible detail. The ultimate TV for premium home theater experiences."
+  },
+  {
+    "product_id": "tv-sony-z9k",
+    "brand": "Sony",
+    "product_name": "Sony Z9K 8K LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [75, 85],
+      "type": "LED",
+      "resolution": "8k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 2600,
+      "input_lag_1080p_ms": 18.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.9,
+      "movies": 8.8,
+      "tv_shows": 8.9,
+      "sports": 9.0,
+      "video_games": 8.8
+    },
+    "price_usd": {
+      "75": 6000,
+      "85": 8000
+    },
+    "summary": "Sony's flagship 8K LED with excellent upscaling and processing. Perfect for large rooms with excellent brightness and color accuracy."
+  },
+  {
+    "product_id": "tv-sony-a95l",
+    "brand": "Sony",
+    "product_name": "Sony A95L OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1300,
+      "input_lag_1080p_ms": 15.5,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.9,
+      "movies": 9.4,
+      "tv_shows": 8.9,
+      "sports": 8.8,
+      "video_games": 8.9
+    },
+    "price_usd": {
+      "55": 3000,
+      "65": 4000,
+      "77": 6000
+    },
+    "summary": "Sony's flagship QD-OLED with exceptional color reproduction and cinematic processing. Perfect for movie enthusiasts and premium viewing."
+  },
+  {
+    "product_id": "tv-panasonic-lz2000",
+    "brand": "Panasonic",
+    "product_name": "Panasonic LZ2000 OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1000,
+      "input_lag_1080p_ms": 18.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.8,
+      "movies": 9.3,
+      "tv_shows": 8.8,
+      "sports": 8.7,
+      "video_games": 8.6
+    },
+    "price_usd": {
+      "55": 2500,
+      "65": 3500,
+      "77": 5000
+    },
+    "summary": "Panasonic's Hollywood-tuned OLED with exceptional movie performance and Dolby Vision IQ. Perfect for cinema-quality viewing."
+  },
+  {
+    "product_id": "tv-philips-oled937",
+    "brand": "Philips",
+    "product_name": "Philips OLED+937",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 950,
+      "input_lag_1080p_ms": 16.5,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.7,
+      "movies": 9.1,
+      "tv_shows": 8.7,
+      "sports": 8.6,
+      "video_games": 8.5
+    },
+    "price_usd": {
+      "55": 2200,
+      "65": 3000,
+      "77": 4500
+    },
+    "summary": "Philips OLED with Ambilight technology and Bowers & Wilkins sound system. Creates immersive viewing experience with ambient lighting."
+  },
+  {
+    "product_id": "tv-vizio-oled",
+    "brand": "Vizio",
+    "product_name": "Vizio OLED 4K",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 800,
+      "input_lag_1080p_ms": 14.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.4,
+      "movies": 8.8,
+      "tv_shows": 8.4,
+      "sports": 8.3,
+      "video_games": 8.5
+    },
+    "price_usd": {
+      "55": 1200,
+      "65": 1800
+    },
+    "summary": "Vizio's affordable OLED with excellent value for money. Great entry point to OLED technology with solid gaming performance."
+  },
+  {
+    "product_id": "tv-samsung-frame-2025",
+    "brand": "Samsung",
+    "product_name": "Samsung The Frame 2025",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [32, 43, 50, 55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 600,
+      "input_lag_1080p_ms": 12.0,
+      "vrr_support": "FreeSync"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.8,
+      "movies": 7.6,
+      "tv_shows": 8.0,
+      "sports": 7.7,
+      "video_games": 8.1
+    },
+    "price_usd": {
+      "32": 800,
+      "43": 1000,
+      "50": 1200,
+      "55": 1400,
+      "65": 1800,
+      "75": 2500,
+      "85": 3500
+    },
+    "summary": "Samsung's lifestyle TV that displays artwork when not in use. Features slim design and Art Mode for interior decoration."
+  },
+  {
+    "product_id": "tv-lg-qned90t",
+    "brand": "LG",
+    "product_name": "LG QNED90T",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75, 86],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1900,
+      "input_lag_1080p_ms": 10.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.4,
+      "movies": 8.2,
+      "tv_shows": 8.4,
+      "sports": 8.5,
+      "video_games": 8.7
+    },
+    "price_usd": {
+      "55": 1300,
+      "65": 1700,
+      "75": 2300,
+      "86": 3200
+    },
+    "summary": "LG's QNED TV with webOS 7.0 and Full Array Dimming. Excellent smart features and good picture quality for bright rooms."
+  },
+  {
+    "product_id": "tv-sony-x90l",
+    "brand": "Sony",
+    "product_name": "Sony X90L LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1200,
+      "input_lag_1080p_ms": 17.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.5,
+      "movies": 8.3,
+      "tv_shows": 8.5,
+      "sports": 8.6,
+      "video_games": 8.4
+    },
+    "price_usd": {
+      "55": 1000,
+      "65": 1400,
+      "75": 2000,
+      "85": 2800
+    },
+    "summary": "Sony's mid-range LED with Google TV OS and excellent processing. Great balance of features and performance for most users."
+  },
+  {
+    "product_id": "tv-tcl-q750g",
+    "brand": "TCL",
+    "product_name": "TCL Q750G QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1000,
+      "input_lag_1080p_ms": 13.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.9,
+      "movies": 7.8,
+      "tv_shows": 7.9,
+      "sports": 8.0,
+      "video_games": 8.1
+    },
+    "price_usd": {
+      "55": 600,
+      "65": 900,
+      "75": 1300
+    },
+    "summary": "TCL's QLED with Roku TV OS and intuitive interface. Great value for money with solid smart TV features."
+  },
+  {
+    "product_id": "tv-hisense-u7n",
+    "brand": "Hisense",
+    "product_name": "Hisense U7N ULED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1100,
+      "input_lag_1080p_ms": 14.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.1,
+      "movies": 8.0,
+      "tv_shows": 8.1,
+      "sports": 8.2,
+      "video_games": 8.3
+    },
+    "price_usd": {
+      "55": 700,
+      "65": 1000,
+      "75": 1400
+    },
+    "summary": "Hisense ULED with VIDAA U6 OS and fast app loading. Good performance and smart features at an affordable price."
+  },
+  {
+    "product_id": "tv-samsung-tu7000",
+    "brand": "Samsung",
+    "product_name": "Samsung TU7000 LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 300,
+      "input_lag_1080p_ms": 20.0,
+      "vrr_support": "None"
+    },
+    "rtings_scores": {
+      "mixed_usage": 6.5,
+      "movies": 6.3,
+      "tv_shows": 6.6,
+      "sports": 6.4,
+      "video_games": 6.2
+    },
+    "price_usd": {
+      "43": 300,
+      "50": 400,
+      "55": 500,
+      "65": 700,
+      "75": 1000
+    },
+    "summary": "Samsung's budget LED TV with solid basic features. Perfect for casual viewing and basic smart TV needs at an affordable price."
+  },
+  {
+    "product_id": "tv-lg-up75",
+    "brand": "LG",
+    "product_name": "LG UP75 LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 350,
+      "input_lag_1080p_ms": 19.5,
+      "vrr_support": "None"
+    },
+    "rtings_scores": {
+      "mixed_usage": 6.7,
+      "movies": 6.5,
+      "tv_shows": 6.8,
+      "sports": 6.6,
+      "video_games": 6.4
+    },
+    "price_usd": {
+      "43": 350,
+      "50": 450,
+      "55": 550,
+      "65": 750,
+      "75": 1100
+    },
+    "summary": "LG's entry-level LED with 4K resolution and smart features. Good value for money with webOS platform."
+  },
+  {
+    "product_id": "tv-sony-x70l",
+    "brand": "Sony",
+    "product_name": "Sony X70L LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 400,
+      "input_lag_1080p_ms": 18.0,
+      "vrr_support": "None"
+    },
+    "rtings_scores": {
+      "mixed_usage": 6.8,
+      "movies": 6.6,
+      "tv_shows": 6.9,
+      "sports": 6.7,
+      "video_games": 6.5
+    },
+    "price_usd": {
+      "43": 400,
+      "50": 500,
+      "55": 600,
+      "65": 800,
+      "75": 1200
+    },
+    "summary": "Sony's budget LED with sharp picture quality and basic smart features. Reliable performance for everyday viewing."
+  },
+  {
+    "product_id": "tv-tcl-4-series",
+    "brand": "TCL",
+    "product_name": "TCL 4-Series LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 250,
+      "input_lag_1080p_ms": 22.0,
+      "vrr_support": "None"
+    },
+    "rtings_scores": {
+      "mixed_usage": 6.2,
+      "movies": 6.0,
+      "tv_shows": 6.3,
+      "sports": 6.1,
+      "video_games": 5.9
+    },
+    "price_usd": {
+      "43": 250,
+      "50": 300,
+      "55": 350,
+      "65": 500,
+      "75": 700
+    },
+    "summary": "TCL's ultra-budget LED with excellent value for money. Perfect for basic TV needs with Roku TV platform."
+  },
+  {
+    "product_id": "tv-hisense-a6g",
+    "brand": "Hisense",
+    "product_name": "Hisense A6G LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 300,
+      "input_lag_1080p_ms": 21.0,
+      "vrr_support": "None"
+    },
+    "rtings_scores": {
+      "mixed_usage": 6.4,
+      "movies": 6.2,
+      "tv_shows": 6.5,
+      "sports": 6.3,
+      "video_games": 6.1
+    },
+    "price_usd": {
+      "43": 280,
+      "50": 350,
+      "55": 420,
+      "65": 600,
+      "75": 850
+    },
+    "summary": "Hisense's budget LED with 4K resolution and Android TV. Great value for money with solid smart TV features."
+  },
+  {
+    "product_id": "tv-samsung-qn85d",
+    "brand": "Samsung",
+    "product_name": "Samsung QN85D Neo QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz",
+      "peak_brightness_hdr_nits": 1500,
+      "input_lag_1080p_ms": 9.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.6,
+      "movies": 8.3,
+      "tv_shows": 8.6,
+      "sports": 8.7,
+      "video_games": 9.0
+    },
+    "price_usd": {
+      "55": 1500,
+      "65": 2000,
+      "75": 2800,
+      "85": 3800
+    },
+    "summary": "Samsung's Neo QLED with high brightness and anti-reflection coating. Perfect for bright rooms with excellent gaming performance."
+  },
+  {
+    "product_id": "tv-lg-qned85t",
+    "brand": "LG",
+    "product_name": "LG QNED85T",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75, 86],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1600,
+      "input_lag_1080p_ms": 11.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.2,
+      "movies": 8.0,
+      "tv_shows": 8.2,
+      "sports": 8.3,
+      "video_games": 8.5
+    },
+    "price_usd": {
+      "55": 1100,
+      "65": 1500,
+      "75": 2100,
+      "86": 2900
+    },
+    "summary": "LG's QNED with NanoCell technology and sharp colors. Good alternative to QLED with LG's processing and smart features."
+  },
+  {
+    "product_id": "tv-sony-x85l",
+    "brand": "Sony",
+    "product_name": "Sony X85L LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 800,
+      "input_lag_1080p_ms": 16.5,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.0,
+      "movies": 7.8,
+      "tv_shows": 8.0,
+      "sports": 8.1,
+      "video_games": 8.2
+    },
+    "price_usd": {
+      "43": 600,
+      "50": 750,
+      "55": 900,
+      "65": 1200,
+      "75": 1700,
+      "85": 2300
+    },
+    "summary": "Sony's LED with bright panel and wide viewing angles. Great for bright environments with Sony's reliable processing."
+  },
+  {
+    "product_id": "tv-tcl-q650g",
+    "brand": "TCL",
+    "product_name": "TCL Q650G QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 900,
+      "input_lag_1080p_ms": 14.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.8,
+      "movies": 7.6,
+      "tv_shows": 7.8,
+      "sports": 7.9,
+      "video_games": 8.0
+    },
+    "price_usd": {
+      "55": 500,
+      "65": 700,
+      "75": 1000
+    },
+    "summary": "TCL's QLED with high brightness and vibrant colors. Excellent value for money with good gaming features."
+  },
+  {
+    "product_id": "tv-lg-b4",
+    "brand": "LG",
+    "product_name": "LG B4 OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 800,
+      "input_lag_1080p_ms": 10.5,
+      "vrr_support": "FreeSync, G-SYNC, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.6,
+      "movies": 9.0,
+      "tv_shows": 8.6,
+      "sports": 8.5,
+      "video_games": 8.7
+    },
+    "price_usd": {
+      "55": 1400,
+      "65": 1900,
+      "77": 2800
+    },
+    "summary": "LG's OLED with deep blacks and cinematic picture quality. Perfect for movie enthusiasts with excellent dark room performance."
+  },
+  {
+    "product_id": "tv-samsung-s90d",
+    "brand": "Samsung",
+    "product_name": "Samsung S90D OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1100,
+      "input_lag_1080p_ms": 9.8,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.8,
+      "movies": 9.0,
+      "tv_shows": 8.8,
+      "sports": 8.7,
+      "video_games": 9.1
+    },
+    "price_usd": {
+      "55": 1600,
+      "65": 2300,
+      "77": 3300
+    },
+    "summary": "Samsung's QD-OLED with wide color gamut and excellent gaming performance. Great balance of features and picture quality."
+  },
+  {
+    "product_id": "tv-panasonic-lz1500",
+    "brand": "Panasonic",
+    "product_name": "Panasonic LZ1500 OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 900,
+      "input_lag_1080p_ms": 17.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.7,
+      "movies": 9.2,
+      "tv_shows": 8.7,
+      "sports": 8.6,
+      "video_games": 8.5
+    },
+    "price_usd": {
+      "55": 2000,
+      "65": 2800,
+      "77": 4000
+    },
+    "summary": "Panasonic's OLED with movie mode optimization and excellent color accuracy. Perfect for cinema-quality viewing experience."
+  },
+  {
+    "product_id": "tv-philips-oled806",
+    "brand": "Philips",
+    "product_name": "Philips OLED806",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 850,
+      "input_lag_1080p_ms": 15.5,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.5,
+      "movies": 8.9,
+      "tv_shows": 8.5,
+      "sports": 8.4,
+      "video_games": 8.3
+    },
+    "price_usd": {
+      "55": 1800,
+      "65": 2500
+    },
+    "summary": "Philips OLED with Ambilight technology for enhanced immersion. Creates ambient lighting that matches the content."
+  },
+  {
+    "product_id": "tv-samsung-serif-2025",
+    "brand": "Samsung",
+    "product_name": "Samsung The Serif 2025",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 500,
+      "input_lag_1080p_ms": 13.0,
+      "vrr_support": "None"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.5,
+      "movies": 7.3,
+      "tv_shows": 7.6,
+      "sports": 7.4,
+      "video_games": 7.2
+    },
+    "price_usd": {
+      "43": 900,
+      "50": 1100,
+      "55": 1300,
+      "65": 1700
+    },
+    "summary": "Samsung's iconic design TV with unique aesthetic appeal. Perfect for interior decoration with distinctive Serif design."
+  },
+  {
+    "product_id": "tv-lg-objet-collection",
+    "brand": "LG",
+    "product_name": "LG Objet Collection",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [65, 77],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1000,
+      "input_lag_1080p_ms": 9.0,
+      "vrr_support": "FreeSync, G-SYNC, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.9,
+      "movies": 9.1,
+      "tv_shows": 8.9,
+      "sports": 8.8,
+      "video_games": 9.0
+    },
+    "price_usd": {
+      "65": 4000,
+      "77": 6000
+    },
+    "summary": "LG's rollable design OLED with space-saving innovation. Features OLED evo technology with unique rollable form factor."
+  },
+  {
+    "product_id": "tv-sony-a9s",
+    "brand": "Sony",
+    "product_name": "Sony A9S OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [48],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 900,
+      "input_lag_1080p_ms": 16.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.8,
+      "movies": 9.2,
+      "tv_shows": 8.8,
+      "sports": 8.7,
+      "video_games": 8.6
+    },
+    "price_usd": {
+      "48": 1500
+    },
+    "summary": "Sony's compact OLED with sophisticated design. Perfect for smaller spaces with premium picture quality and elegant aesthetics."
+  },
+  {
+    "product_id": "tv-tcl-c825",
+    "brand": "TCL",
+    "product_name": "TCL C825 Mini LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1000,
+      "input_lag_1080p_ms": 12.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.0,
+      "movies": 7.9,
+      "tv_shows": 8.0,
+      "sports": 8.1,
+      "video_games": 8.2
+    },
+    "price_usd": {
+      "55": 800,
+      "65": 1100,
+      "75": 1500
+    },
+    "summary": "TCL's Mini LED with slim bezel and modern design. Features 1000 nits brightness with sleek aesthetic appeal."
+  },
+  {
+    "product_id": "tv-hisense-a9h",
+    "brand": "Hisense",
+    "product_name": "Hisense A9H OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 800,
+      "input_lag_1080p_ms": 13.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.3,
+      "movies": 8.6,
+      "tv_shows": 8.3,
+      "sports": 8.2,
+      "video_games": 8.4
+    },
+    "price_usd": {
+      "55": 1000,
+      "65": 1400
+    },
+    "summary": "Hisense's OLED with thin profile and premium design. Great value OLED option with solid performance and modern aesthetics."
+  },
+  {
+    "product_id": "tv-samsung-s85f",
+    "brand": "Samsung",
+    "product_name": "Samsung S85F OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1200,
+      "input_lag_1080p_ms": 9.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.5,
+      "movies": 8.7,
+      "tv_shows": 8.5,
+      "sports": 8.3,
+      "video_games": 8.8
+    },
+    "price_usd": {
+      "55": 1500,
+      "65": 2100
+    },
+    "summary": "Samsung's QD-OLED with enhanced color reproduction. Great entry point to OLED technology with excellent gaming features."
+  },
+  {
+    "product_id": "tv-lg-g4",
+    "brand": "LG",
+    "product_name": "LG G4 OLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 77, 83, 97],
+      "type": "OLED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1500,
+      "input_lag_1080p_ms": 9.5,
+      "vrr_support": "FreeSync, G-SYNC, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 9.0,
+      "movies": 9.4,
+      "tv_shows": 8.9,
+      "sports": 8.9,
+      "video_games": 9.3
+    },
+    "price_usd": {
+      "55": 2400,
+      "65": 3200,
+      "77": 4200,
+      "83": 5500,
+      "97": 8000
+    },
+    "summary": "LG's flagship OLED with MLA technology for incredible brightness. Features wall-mount optimization and perfect blacks."
+  },
+  {
+    "product_id": "tv-sony-x95k",
+    "brand": "Sony",
+    "product_name": "Sony X95K Mini LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 2000,
+      "input_lag_1080p_ms": 16.5,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.7,
+      "movies": 8.5,
+      "tv_shows": 8.7,
+      "sports": 8.8,
+      "video_games": 8.6
+    },
+    "price_usd": {
+      "65": 2500,
+      "75": 3500,
+      "85": 4500
+    },
+    "summary": "Sony's Mini LED with enhanced contrast and brightness. Features Cognitive Processor XR for excellent picture quality."
+  },
+  {
+    "product_id": "tv-tcl-c935",
+    "brand": "TCL",
+    "product_name": "TCL C935 Mini LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "144 Hz",
+      "peak_brightness_hdr_nits": 1200,
+      "input_lag_1080p_ms": 11.0,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.2,
+      "movies": 8.1,
+      "tv_shows": 8.2,
+      "sports": 8.3,
+      "video_games": 8.5
+    },
+    "price_usd": {
+      "55": 1000,
+      "65": 1400,
+      "75": 1900
+    },
+    "summary": "TCL's Mini LED with 144Hz refresh rate and gaming optimization. Excellent choice for gamers with high frame rate needs."
+  },
+  {
+    "product_id": "tv-hisense-u8g",
+    "brand": "Hisense",
+    "product_name": "Hisense U8G ULED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "120 Hz",
+      "peak_brightness_hdr_nits": 1400,
+      "input_lag_1080p_ms": 13.5,
+      "vrr_support": "FreeSync, HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 8.4,
+      "movies": 8.3,
+      "tv_shows": 8.4,
+      "sports": 8.5,
+      "video_games": 8.6
+    },
+    "price_usd": {
+      "55": 800,
+      "65": 1100,
+      "75": 1500
+    },
+    "summary": "Hisense's ULED with dual cell technology and improved contrast. Great value for money with solid gaming performance."
+  },
+  {
+    "product_id": "tv-samsung-q60d",
+    "brand": "Samsung",
+    "product_name": "Samsung Q60D QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 700,
+      "input_lag_1080p_ms": 14.5,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.5,
+      "movies": 7.3,
+      "tv_shows": 7.6,
+      "sports": 7.4,
+      "video_games": 7.2
+    },
+    "price_usd": {
+      "43": 500,
+      "50": 650,
+      "55": 800,
+      "65": 1100,
+      "75": 1500,
+      "85": 2000
+    },
+    "summary": "Samsung's entry-level QLED with good brightness and smart features. Great for bright rooms and everyday viewing."
+  },
+  {
+    "product_id": "tv-lg-nano75",
+    "brand": "LG",
+    "product_name": "LG NANO75 NanoCell",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [50, 55, 65, 75, 86],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 600,
+      "input_lag_1080p_ms": 15.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.7,
+      "movies": 7.5,
+      "tv_shows": 7.8,
+      "sports": 7.6,
+      "video_games": 7.4
+    },
+    "price_usd": {
+      "50": 600,
+      "55": 750,
+      "65": 1000,
+      "75": 1400,
+      "86": 1900
+    },
+    "summary": "LG's NanoCell TV with various sizes and good color accuracy. Features webOS platform with solid smart TV features."
+  },
+  {
+    "product_id": "tv-sony-x80l",
+    "brand": "Sony",
+    "product_name": "Sony X80L LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 500,
+      "input_lag_1080p_ms": 17.5,
+      "vrr_support": "None"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.3,
+      "movies": 7.1,
+      "tv_shows": 7.4,
+      "sports": 7.2,
+      "video_games": 7.0
+    },
+    "price_usd": {
+      "43": 450,
+      "50": 550,
+      "55": 700,
+      "65": 950,
+      "75": 1300
+    },
+    "summary": "Sony's LED with reliable performance and Google TV OS. Good choice for everyday viewing with Sony's processing."
+  },
+  {
+    "product_id": "tv-tcl-5-series",
+    "brand": "TCL",
+    "product_name": "TCL 5-Series QLED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [50, 55, 65, 75],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 400,
+      "input_lag_1080p_ms": 16.0,
+      "vrr_support": "HDMI Forum VRR"
+    },
+    "rtings_scores": {
+      "mixed_usage": 7.1,
+      "movies": 6.9,
+      "tv_shows": 7.2,
+      "sports": 7.0,
+      "video_games": 6.8
+    },
+    "price_usd": {
+      "50": 400,
+      "55": 500,
+      "65": 700,
+      "75": 1000
+    },
+    "summary": "TCL's 5-Series QLED with good value for money. Features Roku TV platform with solid performance for the price."
+  },
+  {
+    "product_id": "tv-hisense-a7g",
+    "brand": "Hisense",
+    "product_name": "Hisense A7G LED",
+    "product_type": "TV",
+    "specs": {
+      "sizes": [43, 50, 55, 65, 75, 85],
+      "type": "LED",
+      "resolution": "4k",
+      "refresh_rate": "60 Hz",
+      "peak_brightness_hdr_nits": 350,
+      "input_lag_1080p_ms": 18.5,
+      "vrr_support": "None"
+    },
+    "rtings_scores": {
+      "mixed_usage": 6.9,
+      "movies": 6.7,
+      "tv_shows": 7.0,
+      "sports": 6.8,
+      "video_games": 6.6
+    },
+    "price_usd": {
+      "43": 300,
+      "50": 400,
+      "55": 500,
+      "65": 700,
+      "75": 1000,
+      "85": 1400
+    },
+    "summary": "Hisense's LED with various size options and Android TV. Great value for money with solid basic features."
   }
 ]
